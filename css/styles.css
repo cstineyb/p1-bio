@@ -9,22 +9,47 @@ h1	{
 	font-weight: 700;
 	font-size: 72px;
 	line-height: 56px;
+	margin-bottom: 0;
 	padding: 10px;
 	border-radius: 100%;
 	text-align: left;
-	width: 200px;
-	height: 200px;
+	width: 210px;
+	height: 210px;
 
-}
+	}
 
 span	{
 	letter-spacing: 10px;
 }
 
-nav li{
+
+#main {
+	font-family: 'Ubuntu' sans-serif;
+	
+}
+nav ul {
+    margin-top: 126px;
+    margin-bottom: 120px;
+    margin-left: 10px;
+	} 
+
+nav li {
+	font-size: 22px;
 	display: inline;
 	float: left;
-	margin: 12px;
+	margin: 18px;
+}
+
+h3 {
+	font-family: 'Roboto' sans-serif;
+}
+
+.column_1 {
+	background: blue;
+	background: blue;
+	margin-left: 80px;
+	position: absolute;
+	top: 300px;
 }
 
 
