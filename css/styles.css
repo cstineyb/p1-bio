@@ -27,31 +27,50 @@ span	{
 	font-family: 'Ubuntu' sans-serif;
 	
 }
-nav ul {
+#main ul {
     margin-top: 126px;
     margin-bottom: 120px;
     margin-left: 10px;
 	} 
 
-nav li {
+#main li {
 	font-size: 22px;
 	display: inline;
 	float: left;
 	margin: 18px;
 }
 
+h2 {font-family: 'Roboto' sans-serif;
+	}
+
 h3 {
 	font-family: 'Roboto' sans-serif;
-}
+	}
 
 .column_1 {
 	background: blue;
-	background: blue;
-	margin-left: 80px;
-	position: absolute;
-	top: 300px;
-}
+	border-radius:18%;
+	float:right;
+	font-family: 'Roboto' sans-serif;
+	margin-left: 40px;
+	padding: 15px 20px;
+	position: relative;
+	top: 70px;
+	}
 
+	.column_1 h4 {
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	div.column_1 p {
+		font-size: 14px;
+		letter-spacing: -.5px;
+		text-align: justify;
+		margin: 5 px;
+		padding: 5px 15px 5px 15px;
+	}
+	
 
 /* Show Grid */
 .showgrid {
