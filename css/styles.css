@@ -3,36 +3,30 @@ body {background:   url("../img/bg.png") #C5C99F;
 }
 
 h1	{
-	font-family: 'Oswald', cursive;
-	color: #A39FC9;
-	font-style: italic;
-
-	background: red;
+	color: #808;
+	background: #999;
+	font-family: 'Ubuntu 700' sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 56px;
 	padding: 10px;
-	border: 10px black double;
-	width: 300px;
-	margin: -10px;
-}
-h3	{
-	color:red;
-}
-h4  {
-	color: purple;
-}
-.name	{
-	font-variant: small-caps;
-}
-#leadin		{
-	color: blue;
-}
-.subhead  {
-	font-style: italic;
-	margin-left: 30px;
+	border-radius: 100%;
+	text-align: left;
+	width: 200px;
+	height: 200px;
+
 }
 
-	p {
-		line-height: 36px;
-	} 
+span	{
+	letter-spacing: 10px;
+}
+
+nav li{
+	display: inline;
+	float: left;
+	margin: 12px;
+}
+
 
 /* Show Grid */
 .showgrid {
