@@ -23,12 +23,12 @@ nav#main {
 }
 
 #main ul {
-	
+	color:#fff;
 	float: right;
     margin-top: 20px;
     margin-bottom: 40px;
     margin-left: 10px;
-    top:200px;
+    top:20px;
 	} 
 
 #main li {
@@ -49,11 +49,11 @@ h3 {
 .column_1 {
 	background: blue;
 	border-radius:18%;
-	float:right;
+	float:left;
 	font-family: 'Roboto' sans-serif;
 	padding: 15px 20px;
 	position: relative;
-	top: 95px;
+	top: 15px;
 	}
 
 .column_1 h4 {
@@ -74,7 +74,7 @@ div.column_1 p {
 		border-radius:10%;
 		float:left;
 		font-family: 'Roboto' sans-serif;
-		padding: 30px 20px;
+		padding: 30px;
 		position: relative;
 		top: 10px;
 	}
