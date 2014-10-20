@@ -1,5 +1,6 @@
 /* Your Website Styles */
-body {background:   url("../img/cardboard-bg.jpg") repeat #C5C77F;
+body {
+	background: url("../img/cardboard-bg.jpg") repeat #C5C77F;
 }
 
 h1	{
