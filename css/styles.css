@@ -68,13 +68,13 @@ h3 {
 
 .column_1 {
 	background: blue;
-	border-radius:10%;
+	border-radius: 15px;
 	float:left;
 	font-family: 'Roboto' sans-serif;
-	padding: 30px 30px;
+	margin-bottom: 30px;
+	padding: 40px 40px;
 	position: relative;
 	top: 10px;
-	width: 598px;
 	}
 
 .column_1 h2 {
@@ -91,25 +91,17 @@ h3 {
 		padding: 8px 15px 8px 15px;
 	}
 
-.column_2 {
+.column_2, .column_3 {
 		background: pink;
-		border-radius:10%;
+		border-radius: 15px;
 		float:left;
 		font-family: 'Roboto' sans-serif;
+		margin-bottom: 30px;
 		padding: 40px;
 		position: relative;
-		top: 10px;
 	}
 
-.column_3 {
-		background: orange;
-		border-radius:10% 10% 10% 10%;
-		float:left;
-		font-family: 'Roboto' sans-serif;
-		padding: 40px;
-		position: relative;
-		top: 10px;
-	}
+
 	
 
 .bottom_bar {
