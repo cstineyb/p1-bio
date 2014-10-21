@@ -2,32 +2,47 @@
 body {
 	background: url("../img/cardboard-bg.jpg") repeat #C5C77F;
 }
+header {
+	background: url("../img/couch-slice.jpg") repeat;
+	height: 320px;
+}
+
+.banner {
+
+}
+
 
 h1	{
+	display: inline-block;
 	color: #808;
-	background: #999;
+	background: #2F045D;
+	float: left;
 	font-family: 'Ubuntu 700' sans-serif;
-	font-weight: 700;
 	font-size: 56px;
 	line-height: 56px;
-	margin: 30px 0 10px 0;
+	margin: 0;
 	padding: 10px;
+	width: 405px;
 	
 	}
+
+img.selfie-right {
+	float: right;
+}
 
 span	{
 	letter-spacing: 10px;
 }
 nav#main {
-	margin: 380px 20px 10px 0;
+	background: #2F045D;
+	float:right;
+	height: 76px;
+	margin:0;
 }
 
 #main ul {
 	color:#fff;
 	float: right;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    margin-left: 10px;
     top:20px;
 	} 
 
@@ -46,27 +61,34 @@ h3 {
 	font-family: 'Roboto' sans-serif;
 	}
 
+.coasters img {
+	border-radius: 5%;
+	margin: 10px 0;
+}
+
 .column_1 {
 	background: blue;
-	border-radius:18%;
+	border-radius:10%;
 	float:left;
 	font-family: 'Roboto' sans-serif;
-	padding: 15px 20px;
+	padding: 30px 30px;
 	position: relative;
-	top: 15px;
+	top: 10px;
+	width: 598px;
 	}
 
-.column_1 h4 {
+.column_1 h2 {
+
+		text-align: left;
 		margin-bottom: 0;
-		text-align: center;
 	}
 
 
-div.column_1 p {
-		font-size: 14px;
+.column_1 p, .column_2 p, .column_3 p {
+		font-size: 16px;
 		letter-spacing: -.5px;
 		text-align: justify;
-		padding: 5px 15px 5px 15px;
+		padding: 8px 15px 8px 15px;
 	}
 
 .column_2 {
@@ -74,7 +96,17 @@ div.column_1 p {
 		border-radius:10%;
 		float:left;
 		font-family: 'Roboto' sans-serif;
-		padding: 30px;
+		padding: 40px;
+		position: relative;
+		top: 10px;
+	}
+
+.column_3 {
+		background: orange;
+		border-radius:10% 10% 10% 10%;
+		float:left;
+		font-family: 'Roboto' sans-serif;
+		padding: 40px;
 		position: relative;
 		top: 10px;
 	}
