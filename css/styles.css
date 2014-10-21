@@ -69,7 +69,7 @@ h3 {
 }
 
 .column_1 {
-	background: blue;
+	background: #e5d7d4;
 	border-radius: 15px;
 	float:left;
 	font-family: 'Roboto' sans-serif;
@@ -89,12 +89,13 @@ h3 {
 .column_1 p, .column_2 p, .column_3 p {
 		font-size: 16px;
 		letter-spacing: -.5px;
+		line-height: 26px;
 		text-align: justify;
 		padding: 8px 15px 8px 15px;
 	}
 
 .column_2, .column_3 {
-		background: pink;
+		background: #e5d7d4;
 		border-radius: 15px;
 		float:left;
 		font-family: 'Roboto' sans-serif;
@@ -106,10 +107,13 @@ h3 {
 
 	
 
-.bottom_bar {
-		background: green;
+footer {
+		background: #2F045D;
+		border-radius: 15px 15px 0 0;
+		margin-bottom: 0;
+		height: 131px;
 }	
-#subnav {
+#subnav ul {
 		text-align: center;
 	}
 
