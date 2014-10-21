@@ -16,9 +16,10 @@ h1	{
 	display: inline-block;
 	color: #808;
 	background: #2F045D;
+	border-radius: 0 0 0 15px;
 	float: left;
 	font-family: 'Ubuntu 700' sans-serif;
-	font-size: 56px;
+	font-size: 72px;
 	line-height: 56px;
 	margin: 0;
 	padding: 10px;
@@ -35,23 +36,24 @@ span	{
 }
 nav#main {
 	background: #2F045D;
+	border-radius: 0 0 15px 0;
 	float:right;
-	height: 76px;
+	height: 131px;
 	margin:0;
 }
 
 #main ul {
 	color:#fff;
 	float: right;
-    top:20px;
+    margin: 34px 100px 0 0;
 	} 
 
 #main li {
 	font-family: 'Ubuntu' sans-serif;
 	font-size: 22px;
 	display: inline;
-	float: right;
 	margin: 18px;
+	top: 10px;
 }
 
 h2 {font-family: 'Roboto' sans-serif;
