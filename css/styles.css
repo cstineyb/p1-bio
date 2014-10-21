@@ -13,6 +13,11 @@ header {
 
 a {
 	text-decoration: none;
+	color: #34DDDD;
+}
+
+p a {
+	color: #808;
 }
 
 a:visited {
