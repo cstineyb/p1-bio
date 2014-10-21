@@ -11,6 +11,17 @@ header {
 
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: darkgreen;
+}
+
+p a:hover {
+	font-size: 1.05em;
+}
 
 h1	{
 	display: inline-block;
@@ -108,19 +119,34 @@ h3 {
 	
 
 footer {
+	color: #e5d7d4;
 		background: #2F045D;
 		border-radius: 15px 15px 0 0;
 		margin-bottom: 0;
 		height: 131px;
 }	
+
+footer p {
+	font-size: 12px;
+	margin-left: 10px;
+	display:inline;
+	float: left;
+	position: relative;
+	top:75px;
+	left:8px;
+}
 #subnav ul {
 		text-align: center;
+		float: right;
+    	margin: 34px 100px 0 0; 
 	}
 
 #subnav li {
+	font-family: 'Ubuntu' sans-serif;
+	font-size: 22px;
 	display: inline;
-	font-size: 16px;
 	margin: 18px;
+	top: 10px;
 
 	}
 	
