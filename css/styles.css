@@ -1,11 +1,22 @@
 /* Your Website Styles */
+
 body {
-	background: url("../img/cardboard-bg.jpg") repeat #C5C77F;
+	background: url("../img/hexabump.png") repeat #000;
+	
 }
-footer {
-	background: url("../img/couch-slice.jpg") repeat;
-	height: 320px;
+header {
+  background: url("../img/hexabump.png") repeat #000;
+  max-width: 100%;
+  max-height:200px;
+  text-align:center;
 }
+
+img {
+  display:inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 
 
 a {
@@ -15,10 +26,7 @@ a {
 
 p a {
 	color: #808;
-}
 
-a:visited {
-	color: darkgreen;
 }
 
 p a:hover {
@@ -49,9 +57,9 @@ span	{
 }
 nav#main {
   background: url("../img/light_alu.png") repeat #000;
-  height: 132px;
+  display:inline;
   max-width: 100%;
-  max-height: 150px;
+  max-height: 70px;
 }
 
 #main ul {
@@ -70,21 +78,37 @@ nav#main {
 }
 
 
-a {
+a:link {
  
   text-decoration: none;
+  color:#D8D8D8;
 }
 
-h2 {font-family: 'Roboto' sans-serif;
-	}
+a:visited{
+	color: #e6e6e6;
+}
 
-h3 {
-	font-family: 'Roboto' sans-serif;
-	}
+a:hover {
+	color: #F0F0F0;
+	font-size: 1.1em;
+}
 
+
+
+h2, h3 {
+	color: #000;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+
+}
+section.coasters {
+	float:left;
+	position:relative;
+	margin-top:2%;
+}
 .coasters img {
 	border-radius: 5%;
-	margin: 10px 0;
+	margin: 5.5% 2%;
 	box-shadow: 2px 2px 1px #ccc;
   -webkit-box-shadow: 2px 2px 1px #ccc;
   -moz-box-shadow: 2px 2px 1px #ccc;
@@ -98,40 +122,41 @@ h3 {
 	}
 
 
-.one p, .two p, .three p {
-		font-size: 16px;
-		letter-spacing: .3px;
-		line-height: 27px;
+ p {
+		color: #000;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.33em;
+		line-height: 1.5em;
 		text-align: justify;
-		padding: 8px 15px 8px 15px;
-	}
-
-.one, .two, .three {
-		background: #e5d7d4;
-		border-radius: 15px;
-		float:left;
-		font-family: 'Roboto' sans-serif;
-		margin-bottom: 32px;
-		padding: 40px 40px 45px 40px;
-		position: relative;
+	
+		
 	}
 
 .one {
-	margin: 10px 0 30px 0;
-	padding: 40px 40px;
-	position: relative;
+		background: #8A002E;
+		border-radius: 5px;
+		float:left;
+		font-family: 'Roboto' sans-serif;
+		margin:  3% auto;
+		padding: 2% 3.5%;
+		position: relative;
 	}
 
-.two a {
-	margin: 10px 15px 10px 35px;
-	position: relative;
-	top: 10px;
+
+	
+footer {
+	background: url("../img/couch-slice.jpg") repeat;
+	height: 320px;
 }
 
-	
+.copyright {
+	background: url("../img/light_alu.png") repeat;
+}	
 
-
-	
+.copyright p {
+	text-align: right;
+	padding-right:4%;
+}
 
 /* Show Grid */
 .showgrid {
