@@ -149,7 +149,7 @@ footer {
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
-  p{
+.one p{
   font-size:.3em;
   color:#fff;
   font-family: "Roboto";
