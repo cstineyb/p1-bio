@@ -193,17 +193,15 @@ nav#main {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 
-  p{
-  font-size:.35em;
-  color:#fff;
-  font-family: "Roboto";
-  text-align: left;
-  padding-bottom:.25%;
- }
+  
   body {
     background: url("../img/hexabump.png") repeat #000;
 
   }
+  .one img {
+	width:25%;
+	margin-left: 1%;
+}
 /* Styles */
 }
 
