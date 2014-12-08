@@ -150,7 +150,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
 .one p{
-  font-size:.3em;
+  font-size:.6em;
   color:#fff;
   font-family: "Roboto";
   text-align: left;
