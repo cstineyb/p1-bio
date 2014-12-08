@@ -175,7 +175,7 @@ nav#main {
   color:#000;
   font-family: 'Ubuntu' sans-serif;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5em;
   display: inline;
   margin: 0% 3%;
@@ -185,7 +185,13 @@ nav#main {
     background: url("../img/hexabump.png") repeat #000;
 
   }
+  footer {
+	background: url("../img/hexabump.png") repeat;
+	height: 320px;
+}
   .selfie-right {
+  	height:0;
+  	margin: 0;
   	visibility: hidden;
   }
 }
